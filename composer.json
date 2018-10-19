@@ -1,0 +1,31 @@
+{
+    "name": "andegna/ethical",
+    "description": "displays a calendar and the date of Easter",
+    "type": "project",
+    "homepage": "https://github.com/andegna/ethical",
+    "license": "MIT",
+    "keywords": [
+        "calendars",
+        "ethiopic",
+        "habesha"
+    ],
+    "authors": [
+        {
+            "name": "Samson Endale",
+            "email": "4sam21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Andegna\\Ethical\\": "src/"
+        }
+    },
+    "require": {
+        "andegna/calender": "^2.1",
+        "symfony/console": "^4.1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpspec/phpspec": "^5.0"
+    }
+}
